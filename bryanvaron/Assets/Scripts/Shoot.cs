@@ -25,7 +25,7 @@ public class Shoot : MonoBehaviour {
             // Creo un game object a partir de la informacion guardada
             // en un prefab
 
-			GameObject misil = GameObject.Instantiate(Misil as GameObject);
+			GameObject misil = GameObject.Instantiate(Resources.Load("Prefabs/Misil") as GameObject);
 		
 
             //Hago que else misil sea hijo del avion 
